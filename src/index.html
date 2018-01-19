@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="./static/css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tab">
+            <ul class="flex-parent">
+                <li data-id="box1" class="tab-item flex-item my on">
+                    <span>我的帐号</span>
+                </li>
+                <li data-id="box2" class="tab-item flex-item add">
+                    <span>添加帐号</span>
+                </li>
+                <!-- <li data-id="box3" class="tab-item flex-item article">
+                    <span>文章列表</span>
+                </li> -->
+            </ul>
+        </div>
+        <div class="content">
+            <div class="box on" id="box1">
+                <div id="accountList"></div>
+            </div>
+            <div class="box" id="box2">
+                <div class="addList" id="addList"></div>
+            </div>
+            <!-- <div class="box" id="box3">
+                <div class="articleList" id="articleList"></div>
+                <div class="forwardList"></div>
+            </div> -->
+        </div>
+    </div>
+    <div class="xmt-model" style="display:none;"></div>
+    <div class="xmt-update-tip" style="display:none;">
+        <span class="update-close"></span>
+        <img src="/static/img/version.png">
+        <div class="update-content">
+            <h3>新版本已经更新上线</h3>
+            <div></div>
+        </div>
+        <a class="update-btn">立即升级</a>
+    </div>
+    <div class="xmt-update-tip-s" style="display:none;">
+        <a class="update-btn-s">升级</a>
+    </div>
+    <script src="./static/js/manifest.js"></script>
+    <script src="./static/js/vendor.js"></script>
+    <script src="./static/js/index.js"></script>
+</body>
+
+</html>
